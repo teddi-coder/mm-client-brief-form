@@ -1,0 +1,9 @@
+name = "mm-client-brief-worker"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+[vars]
+MM_CLIENTS_FOLDER_ID = "90164096236"
+
+# CLICKUP_API_TOKEN must be added as a secret — never commit it.
+# Run: wrangler secret put CLICKUP_API_TOKEN

@@ -1,0 +1,46 @@
+/* Mechanic Marketing — Brand CSS */
+:root {
+  --mm-racer-orange: #FF3D02;
+  --mm-warm-white: #F0F0EC;
+  --mm-black: #000000;
+  --mm-golden-orange: #F0AA00;
+  --mm-orange-t4: #FFD1C6;
+
+  --font-display: 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'Helvetica Neue', Arial, sans-serif;
+
+  --spacing-xs: 11px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 36px;
+  --spacing-xl: 54px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--mm-warm-white);
+  color: var(--mm-black);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Utility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
